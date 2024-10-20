@@ -9,7 +9,9 @@ export default function SendMess({onSendText}){
 
     return (
         <>
-        <form onSubmit={(e)=>{
+        <form 
+        style={{marginBottom:"32px"}}
+        onSubmit={(e)=>{
             e.preventDefault()
             onSendText(value)}}>
             <textarea name="write" id="write"
