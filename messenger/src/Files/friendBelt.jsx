@@ -1,6 +1,6 @@
 import Friend from "./friend"
 
-export default function FriendBelt({data, onSelectedHandler, onWantAdd}){
+export default function FriendBelt({data, onSelectedHandler}){
     return (
         <>
         <div className="belt">
